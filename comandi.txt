@@ -1,0 +1,17 @@
+// comandi
+
+ps -T -p <pid> : dettagli dei thread di uno stesso processo;
+
+ps -eLF : vedere tutti i thread nel sistema;
+
+ipcs : mostra info sui meccanismi ipc attivi al momento nel sistema;
+
+getconf LONG_BIT : restituisce se il sistema e' a 32/64 bit;
+
+uname -m : restituisce l'architettura corrente del sistema operativo;
+
+cat /etc/os-release : mostra quale versione del sistema operativo e' installata;
+
+ls [ab]* : (con parentesi quadre) elenca i file (anche di sotto-cartelle) che iniziano per 'a' o per 'b';
+
+sort <in >out : ordina cio' che c'e' nel file 'in' e lo scrive in 'out' (attenzione spazi <in >out)
